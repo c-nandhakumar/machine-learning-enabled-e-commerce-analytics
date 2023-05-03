@@ -1,4 +1,5 @@
 gunicorn
+uvicorn
 flask
 matplotlib
 flask_wtf
