@@ -1,8 +1,6 @@
 gunicorn
 flask
 matplotlib
-io
-base64
 flask_wtf
 wtforms.fields
 wtforms
