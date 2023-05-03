@@ -2,7 +2,6 @@ gunicorn
 flask
 matplotlib
 flask_wtf
-wtforms.fields
 wtforms
 datetime
 pandas
