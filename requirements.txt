@@ -1,6 +1,6 @@
 gunicorn
 flask
-mattplotlib
+matplotlib
 io
 base64
 flask_wtf
