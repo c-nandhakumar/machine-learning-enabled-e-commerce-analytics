@@ -1,0 +1,13 @@
+gunicorn
+flask
+mattplotlib
+io
+base64
+flask_wtf
+wtforms.fields
+wtforms
+datetime
+pandas
+numpy
+seaborn
+sklearn
