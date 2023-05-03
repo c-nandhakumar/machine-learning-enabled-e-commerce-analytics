@@ -1,0 +1,140 @@
+:root,body{
+    font-family: 'Inter', sans-serif;
+    background-color: #0E1116;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+::-webkit-datetime-edit { border-radius: 0.5em; }
+
+.mainblock{
+    color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.datepickercontainer{
+    width: 35%;
+    padding: 1rem;
+    background-color:#eae6e5;
+    color:#000 ;
+    border-radius: 0.75rem;
+}
+
+.datelabel{
+    font-weight: 500;
+    width: 5%;
+    padding: 0.5rem;
+}
+
+.datepicker{
+    padding: 0.5rem;
+    font-style: 'Inter';
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color:#ffffff;
+    color:#000000 ;
+}
+
+.btn-container{ 
+  position: relative;
+  margin: 0px auto;
+  padding-top: 30px;
+  text-align: center;
+  color: #333;
+}
+
+.btn{
+  margin: 0;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  width: 160px;
+  margin-top: 0;
+  background: #219df3;
+  height: 40px;
+  text-align: center;
+  color: white;
+  line-height: 40px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.data-analysis-div{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image2{
+width: 50%;
+height: auto;
+}
+
+.heading{
+    padding: 0.5rem 1rem;
+    background-color:#b8dbd9;
+    color:#000;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.mainheading{
+    padding:1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    max-width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #1d7874;
+}
+.datecontainer{
+    width: 6rem;
+}
+.image{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.downloadbtn{
+    height: 2rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3981ED;
+    color: white;
+    padding: 0.25rem;
+    border-radius: 2rem;  
+    margin: 0;  
+}
+
+.icon{
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+    width: 1.5rem;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.title{
+    background-color: #0094c6;
+    width: 50%;
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    margin: 2rem 0rem 1rem 0rem;
+    border-radius: 0.5rem;
+}
+

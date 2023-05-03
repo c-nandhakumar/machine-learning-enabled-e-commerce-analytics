@@ -1,0 +1,30 @@
+
+{%extends 'base.html'%}
+{% block content %}
+<body>	
+	<div class="mainheading"><h2>Machine Learning Enabled E-Commerce Analytics</h2></div>
+	<div class="mainblock">
+		
+	  <div class="heading"><h2>Yearly Sales and Product Sales Data Analysis</h2></div>
+      <div class="data-analysis-div">
+		<img class="image2" src="data:image/png;base64,{{ yearlysales }}" alt="yearlysales">
+		<img class="image2" src="data:image/png;base64,{{ productsales }}" alt="productsales">
+	  </div> 
+	  <div class="heading"><h2>Sales Analysis Chart</h2></div>
+		<img class="image" src="data:image/png;base64,{{ img }}" alt="My Plot">
+	<div class="title"><h3>Select a Date Range For Future Sales Prediction</h3></div>
+  <form action="" method='POST' name="myform" class="verticalform">
+    {{form.csrt_token}}
+	<div class="datepickercontainer">
+	<div class="datecontainer">{{form.startdate.label(class='datelabel')}}</div> {{form.startdate(class='datepicker')}} {{form.hidden_tag()}}
+</div><br>
+<div class="datepickercontainer">
+	<div class="datecontainer">{{form.enddate.label(class='datelabel')}}</div> {{form.enddate(class="datepicker")}} {{form.hidden_tag()}}
+</div>
+	<p>{{form.submit(class="btn")}}</p>
+  </form>
+
+</div>
+</body>
+{% endblock %}
+

@@ -1,0 +1,28 @@
+{%extends "base.html" %}
+{% block content %}
+<body>
+    
+    <div class="mainblock">
+        <h2>Future Sales Prediction</h2>
+        <div class="container">
+            <h3>Prediction Chart from {{startdate}} to {{enddate}}</h3>
+            <div class="downloadbtn">  
+            <a href="{{url_for('download_file')}}">Download</a>
+            <img class="icon" src="https://img.icons8.com/sf-black-filled/64/FFFFFF/downloading-updates.png"/>
+        </div></div>
+   
+    <img class="image" src="data:image/png;base64,{{ imgurl2 }}" alt="My Plot">
+    <h2>Overall Sales Chart</h2>
+    <img class="image" src="data:image/png;base64,{{ imgurl1 }}" alt="My Plot">
+        <div class="container">
+     <h2>Predicted Sales Data</h2><div class="downloadbtn">  
+            <a href="{{url_for('download_xl')}}">Download</a>
+            <img class="icon" src="https://img.icons8.com/sf-black-filled/64/FFFFFF/downloading-updates.png"/>
+        </div></div>
+        <div class="table">
+            {{ table|safe }}
+          </div>
+    </div>
+   
+</body>
+{% endblock %}
