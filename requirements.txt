@@ -7,5 +7,6 @@ datetime
 pandas
 numpy
 seaborn
+scikit-learn
 sklearn
 xgboost
